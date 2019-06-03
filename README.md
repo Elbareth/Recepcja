@@ -1,2 +1,5 @@
 # Recepcja
-Aplikacja wykorzystująca Spring MVC, Spring Data oraz Hibernate. Recepcja hotelowa
+Aplikacja wykorzystująca Spring MVC, Spring Data oraz Hibernate. Recepcja hotelowa. Projekt wykonany dla uczelni
+Użytkownik, który loguje się do tej aplikacji jest pracownikie hotelu. Ma on możliwość rejestracji, później może się zalogować. By się zarejestrować musi podać podpis oraz identyfikator nadany mu w firmie. Podpis musi być odpowiedniego formatu (Pierwsza litera duża, potem małe, następnie cyfra i znów małe litery). Hasło podane przez użytkownik jest natychmiast transformowane przez SHA256 i w takiej postaci zapisywane do bazy danych. Jeśli jakieś pola nie uzupełnimy to HTML validation wyświetli odpowiedni komunikat.
+Gdy uzytkownik się zaloguje to jego oczom ukarze się Strona Główna, a na niej kalendarz. Gdy się wejdzie w dany dzień to w przyszłosci wyswietli się lista poki oraz czy sa zarezerwowane czy nie. Obecnie wyświetla sie tylko data. Użytkownik ma mozliwość również pooglądac listę klientów. Działa wyszukiwanie. Niesterty uduwanie i edycja nie działają ze względu na złe relacje w bazach danych. 
+Użytkwonik ma też wglad w liste usłu. W przyszłości będzie mógł modyfikować, usuwać oraz dodawać. Pod koniec munu znajduje sie przycisk wyloguj. Kończy on sesje i przonosi użytkownika na panel logowania. 
