@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="menu" template="/WEB-INF/views/menu.jsp">
+        <put-attribute name="content" value=""/>
+    </definition>
+    <definition name="/stronaGlowna.index" extends="menu">
+        <put-attribute name="content" value="/WEB-INF/views/stronaGlowna.jsp"/>
+    </definition>
+    <definition name="/listaKlientow.index" extends="menu">
+        <put-attribute name="content" value="/WEB-INF/views/listaKlientow.jsp"/>
+    </definition>
+    <definition name="/listaUslug.index" extends="menu">
+        <put-attribute name="content" value="/WEB-INF/views/listaUslug.jsp"/>
+    </definition>
+</tiles-definitions>

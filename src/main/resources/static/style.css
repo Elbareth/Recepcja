@@ -1,0 +1,116 @@
+body{
+	background-color: #4d3300;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #ffdd99;
+	background-image: url("/resources/image-063.jpg");
+	opacity: 0.8;
+	
+}
+h1{
+	font-size: 50px;	
+	background-color: #0052cc;
+	color: white;
+	border-style: outset;
+	border-color: #003380;
+	text-align: center;	
+}
+h2{
+	font-size: 35px;	
+	border-style: outset;
+	border-color: #0066A2;
+}
+h3{
+	font-size: 20px;
+	border-style: outset;
+	border-color: #0066A2;
+}
+
+input[type=submit] {
+	background: #005ce6;
+	color: #ffdd99;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #aaa;
+	height: 50px;
+	width: 100px;	
+	text-shadow:none;
+}
+input[type=submit]:hover {
+	background: #bb33ff;
+	color: #e6ccff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #aaa;
+	height: 50px;
+	width: 100px;	
+	text-shadow:none;
+	cursor: pointer;
+}
+.menu{
+	align-items: center;	
+	justify-content: center;
+	display: flex;
+	background-color: #0052cc;
+	border-style: outset;
+	border-color: #003380;
+	heigth: 100px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 50px;
+}
+.body{
+	background-color: #0052cc;
+	border-style: outset;
+	border-color: #003380;
+	heigth: 100px;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+img{
+	border-style: outset;
+	border-color: white;
+	box-shadow: 5px 5px 5px #aaa;
+}
+input[type=text] {
+	color: black;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #aaa;
+	height: 50px;
+	width: 100px;
+	text-shadow:none;
+}
+input[type=text]:hover {
+    background-color: #ffdd99;
+	color: black;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #aaa;
+	height: 50px;
+	width: 100px;
+	text-shadow:none;
+}
+input[type=password] {
+	color: black;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #aaa;
+	height: 50px;
+	width: 100px;
+	text-shadow:none;
+}
+input[type=password]:hover {
+    background-color: #ffdd99;
+	color: black;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #aaa;
+	height: 50px;
+	width: 100px;
+	text-shadow:none;
+}
